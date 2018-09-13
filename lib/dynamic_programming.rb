@@ -54,7 +54,7 @@ class DynamicProgramming
     result
   end
 
-  def super_frog_hops2(n, k)
+  def super_frog_hops(n, k)
     @super_cache = { 0 => [] }
     super_frog_helper(n, k)
     @super_cache[n]
@@ -73,7 +73,15 @@ class DynamicProgramming
   end
 
   def knapsack(weights, values, capacity)
-
+    table = []
+    0.upto(capacity) do |cap|
+      result = []
+      0.upto(weight.length) do |i|
+        
+        
+        
+      end
+    end
   end
 
   # Helper method for bottom-up implementation
